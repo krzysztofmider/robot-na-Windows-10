@@ -17,4 +17,5 @@
  
  -instalacja ChroPath-
  
+ ## Pycharn
  -Pycharm IDE(zainstalowanie pakietów robotframework, Selenium oraz Selenium plugin)
