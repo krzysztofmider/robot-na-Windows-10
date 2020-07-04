@@ -1,0 +1,26 @@
+*** Settings ***
+Library     SeleniumLibrary
+*** Variables ***
+${browser}  chrome
+${url}  https://www.busemprzezswiat.pl
+
+*** Test Cases ***
+LoginTest
+        open browser    ${url}  ${browser}
+        maximize browser window
+        click link    xpath://a[@class='wpfront-button']
+        sleep   5
+        click element   xpath://a[contains(@class,'vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-modern vc_btn3-block vc_btn3-color-inverse')]
+    sleep   5
+    input text      id:billing_first_name       Krzys
+    input text      id:billing_last_name        Kowalski
+    input text      id:billing_address_1        Harcerska 8
+    input text      id:billing_postcode         52-405
+    input text      id:billing_city             Wroclaw
+    input text      id:billing_phone            664724650
+    input text      billing_email               krzys!wp.pl
+    select checkbox  name:terms
+    click element   xpath://button[@id='place_order']
+
+
+*** Keywords ***
