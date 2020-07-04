@@ -1,6 +1,6 @@
 # robot-na-Windows-10
 
-##development
+## Development
    zainstalowanie języka Python 3.8.3 (https://www.python.org/downloads/)
    instalacja środowiska Pycharm IDE(https://www.jetbrains.com/pycharm/)
 ### Command prompt:
