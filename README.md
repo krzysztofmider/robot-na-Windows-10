@@ -5,9 +5,11 @@
 
 -instalacja środowiska Pycharm IDE(https://www.jetbrains.com/pycharm/)
 ### Command prompt:
-  instalacja Selenium (pip install selenium)
-  instalacja robotframework pip install robotframework)
-  instalacja Robotframework Selenium Library (pip istall robortframework-seleniumlibrary)
+ -instalacja Selenium (pip install selenium)
+ 
+ -instalacja robotframework pip install robotframework)
+ 
+ -instalacja Robotframework Selenium Library (pip istall robortframework-seleniumlibrary)
 #### instalacja najwnowszej wersji przeglądarki Chrome
   instalacja Kompatybilnych z wersją przeglądarki webdriverów
   instalacja ChroPath-
