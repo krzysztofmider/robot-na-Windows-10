@@ -7,7 +7,7 @@
 ## Command prompt:
  -instalacja Selenium (pip install selenium)
  
- -instalacja robotframework pip install robotframework)
+ -instalacja robotframework( pip install robotframework)
  
  -instalacja Robotframework Selenium Library (pip install robortframework-seleniumlibrary)
 ## Chrome
